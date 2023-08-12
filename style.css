@@ -68,7 +68,7 @@ input:valid ~ label{
 .inputbox ion-icon{
     position: absolute;
     right: 8px;
-    color: #fff;
+    color: #33ffff;
     font-size: 1.2em;
     top: 20px;
 }
@@ -102,6 +102,10 @@ button{
     cursor:pointer;
     font-size: 1em;
     font-weight: 600;
+}
+button:hover{
+    background: #33ffff;
+    transition: .7s;
 }
 .register{
     font-size: .9em;
